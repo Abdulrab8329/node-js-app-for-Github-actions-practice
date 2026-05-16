@@ -5,4 +5,4 @@ services:
           dockerfile: Dockerfile
       restart: unless-stopped
       ports:
-        - "30:3000"
+        - "80:3000"
