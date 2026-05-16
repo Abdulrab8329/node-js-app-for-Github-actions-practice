@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT ?? 3000;
 app.get("/", (req, res) => {
-    res.send("Hello from Node + Express __🚀");
+    res.send("Hello from Node + Express __. this is deployed using Github Actions");
 });
 
 app.get("/api", (req, res) => {
