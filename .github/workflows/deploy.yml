@@ -25,4 +25,4 @@ jobs:
           script: |
             cd node-js-app-for-Github-actions-practice
             git pull origin main
-            docker-compose up -d --build
+            docker compose up -d --build
